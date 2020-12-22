@@ -5,7 +5,6 @@ metadata:
   labels:
     io.kompose.service: dbdata
   name: dbdata
-provisioner: kubernetes.io/aws-ebs
 spec:
   accessModes:
     - ReadWriteOnce
